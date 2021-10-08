@@ -44,7 +44,7 @@ Sample Output
 ```
 
 
-    '''
+'''
 
 client = httpx.Client()
 
