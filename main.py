@@ -67,6 +67,7 @@ else:
 
 i = 1001
 out = ""
+
 for item in questionList:
     res = client.get(url="http://acm.hdu.edu.cn/webcontest/" + item[0])
     detail = re.compile(
